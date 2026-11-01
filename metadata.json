@@ -1,0 +1,6 @@
+{
+  "name": "SonicMix DSP",
+  "description": "Professional real-time audio mixer with 1-60 band parametric EQ, crossover faders, stereo delay, and live VU meters",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

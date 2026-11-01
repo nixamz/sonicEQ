@@ -24,7 +24,7 @@ android {
 
   // Do not remove or modify these signingConfigs. They are necessary for building, installing,
   // and updating Android apps in AI Studio.
-  signingConfigs {
+  // signingConfigs {
     create("release") {
       val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${rootDir}/my-upload-key.jks"
       storeFile = file(keystorePath)
@@ -40,7 +40,7 @@ android {
     }
   }
 
-  buildTypes {
+  // buildTypes {
     release {
       isCrunchPngs = false
       isMinifyEnabled = false
